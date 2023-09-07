@@ -11,6 +11,8 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* inizio header */
@@ -32,3 +34,45 @@ h1{
 }
 
 /* fine header */
+
+/* inizio main */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main{
+    padding-top: 40px;
+    padding-left: 110px;
+}
+
+
+.box{
+    background-color: black;
+    width: 300px;
+    height: 100px;
+    color: white;
+    margin-left: 15px;
+}
+
+.pull-left{
+    float: left;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.inside-box{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    margin-left: 10px;
+}
+
+.e-mail{
+    color: #33ccff;
+}
