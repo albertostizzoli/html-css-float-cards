@@ -55,6 +55,8 @@ main{
     height: 100px;
     color: white;
     margin-left: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 3px 3px rgba(231, 227, 227, 0.7);
 }
 
 .pull-left{
