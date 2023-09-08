@@ -66,6 +66,7 @@ main{
 img{
     height: 100px;
     width: 100px;
+    display: block;
 }
 
 .inside-box{
